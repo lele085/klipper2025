@@ -54,3 +54,24 @@ origin = https://github.com/Guilouz/Creality-Helper-Script.git
 primary_branch = main
 managed_services = klipper
 
+[update_manager fluidd]
+type = web
+channel = beta
+repo = fluidd-core/fluidd
+path = /usr/data/fluidd
+
+[update_manager mainsail]
+type = web
+channel = beta
+repo = mainsail-crew/mainsail
+path = /usr/data/mainsail
+
+[update_manager ]
+type = git_repo
+path = /usr/data/moonraker-obico/scripts/..
+origin = 
+env = /usr/data/moonraker-obico/scripts/../../moonraker-obico-env/bin/python
+requirements = requirements.txt
+install_script = install.sh
+managed_services = 
+
