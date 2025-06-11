@@ -66,6 +66,13 @@ channel = beta
 repo = mainsail-crew/mainsail
 path = /usr/data/mainsail
 
+[update_manager Klipper-Adaptive-Meshing-Purging]
+type = git_repo
+path = /overlay/upper/root/Klipper-Adaptive-Meshing-Purging
+origin = https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
+primary_branch = main
+managed_services = klipper
+
 [update_manager ]
 type = git_repo
 path = /usr/data/moonraker-obico/scripts/..
