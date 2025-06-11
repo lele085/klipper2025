@@ -80,12 +80,3 @@ origin = https://github.com/TheSpaghettiDetective/moonraker-obico.git
 primary_branch = master
 managed_services = moonraker
 
-[update_manager ]
-type = git_repo
-path = /usr/data/moonraker-obico/scripts/..
-origin = 
-env = /usr/data/moonraker-obico/scripts/../../moonraker-obico-env/bin/python
-requirements = requirements.txt
-install_script = install.sh
-managed_services = 
-
