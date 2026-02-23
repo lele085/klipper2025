@@ -54,18 +54,6 @@ origin = https://github.com/Guilouz/Creality-Helper-Script.git
 primary_branch = main
 managed_services = klipper
 
-[update_manager fluidd]
-type = web
-channel = beta
-repo = fluidd-core/fluidd
-path = /usr/data/fluidd
-
-[update_manager mainsail]
-type = web
-channel = beta
-repo = mainsail-crew/mainsail
-path = /usr/data/mainsail
-
 [update_manager Klipper-Adaptive-Meshing-Purging]
 type = git_repo
 path = /overlay/upper/root/Klipper-Adaptive-Meshing-Purging
