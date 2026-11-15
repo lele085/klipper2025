@@ -66,10 +66,10 @@ channel = beta
 repo = mainsail-crew/mainsail
 path = /usr/data/mainsail
 
-[update_manager ]
+[update_manager moonraker-obico]
 type = git_repo
 path = /usr/data/moonraker-obico/scripts/..
-origin = 
+origin = https://github.com/TheSpaghettiDetective/moonraker-obico.git
 env = /usr/data/moonraker-obico/scripts/../../moonraker-obico-env/bin/python
 requirements = requirements.txt
 install_script = install.sh
